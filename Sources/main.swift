@@ -29,7 +29,7 @@ var routes = Routes()
 routes.add(method: .get, uri: "/", handler: {
 		request, response in
 		response.setHeader(.contentType, value: "text/html")
-		response.appendBody(string: "<html><head><meta name=\"google-site-verification\" content=\"6-9f2ocr9wqaL2ygviqUpnbjld6Sr05V5IAK3v5ikaI\" /><title>Hello, world!</title></head><body>Hello, world!</body></html>")
+		response.appendBody(string: "<html><head><meta name=\"google-site-verification\" content=\"6-9f2ocr9wqaL2ygviqUpnbjld6Sr05V5IAK3v5ikaI\" /><title>Hello, world on Ubuntu!</title></head><body>Hello, world!</body></html>")
 		response.completed()
 	}
 )
